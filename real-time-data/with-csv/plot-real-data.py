@@ -3,12 +3,6 @@ import pandas as pd
 from itertools import count
 from matplotlib.animation import FuncAnimation
 
-
-data = pd.read_csv('data.csv')
-x_values = data['x_values']
-total_1 = data['total_1']
-total_2 = data['total_2']
-
 index = count()
 
 def animate(i):
